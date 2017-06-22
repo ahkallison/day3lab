@@ -42,7 +42,7 @@
             android:ems="10"
             android:inputType="textPassword" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -50,15 +50,19 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
-                />
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="Cancel" />
 
             <Button
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="Login" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
