@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:hint="E-mail address"
-            android:textColorHint="@android:color/white"
+            android:textColorHint="#ffd6d7d7"
             android:ems="10"
             android:textColor="@android:color/white"
             android:inputType="textPersonName" />
@@ -45,7 +45,7 @@
             android:hint="Password"
             android:ems="10"
             android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
+            android:textColorHint="#ffd6d7d7"
             android:inputType="textPassword" />
 
         <RelativeLayout
@@ -58,7 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="10dp"
-                android:text="Cancel" />
+                android:text="Cancel"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/button"
@@ -66,7 +67,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="10dp"
-                android:text="Login" />
+                android:background="@color/colorLoginBlue"
+                android:text="Login"
+                android:textAllCaps="false" />
 
         </RelativeLayout>
 
