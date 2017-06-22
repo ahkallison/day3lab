@@ -23,6 +23,7 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
             android:layout_margin="10dp"
+            android:textSize="18sp"
             android:text="Login. Here we go!"/>
 
         <EditText
@@ -30,7 +31,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:hint="E-mail address"
+            android:textColorHint="@android:color/white"
             android:ems="10"
+            android:textColor="@android:color/white"
             android:inputType="textPersonName" />
 
         <EditText
@@ -40,6 +43,8 @@
             android:layout_margin="5dp"
             android:hint="Password"
             android:ems="10"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
             android:inputType="textPassword" />
 
         <RelativeLayout
